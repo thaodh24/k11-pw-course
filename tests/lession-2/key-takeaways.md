@@ -34,7 +34,7 @@
 - *Git config* - sử dụng để cấu hình Git. 
 - *Git status* - xem trạng thái file / data.
 - *Git add* - đưa data vào vùng **Staging Area**. Sử dụng git add . => đưa tất cả các thay đổi lên.
-- *Git commit* - đưa data vào vùng **Repository**, dân gian còn gọi là push code. Thường phải có message đi kèo với cú pháp -m "[message cần note]"
+- *Git commit* - đưa data vào vùng **Repository**. Thường phải có message đi kèo với cú pháp -m "[message cần note]"
 - *Git log* - kiểm tra lịch sử commit.
 
 ![Git simple workflow image](image.png)
