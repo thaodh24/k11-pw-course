@@ -63,4 +63,7 @@ Thuộc tính - giá trị thuộc tính
 ![Check/uncheck flow](<Ảnh màn hình 2024-12-14 lúc 22.02.21.png>)
 
 - Select Option
+![Khai báo Select Option](<Ảnh màn hình 2024-12-15 lúc 13.30.08.png>)
+
 - Set input file 
+![Khai báo input file](<Ảnh màn hình 2024-12-15 lúc 13.33.39.png>)
