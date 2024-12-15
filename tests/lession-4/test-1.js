@@ -65,5 +65,27 @@ console.log(convertTimeToHex(120));
 // - Ví dụ: Decrypt Code sẽ được giải mã thành dECRYPT cODE.
 
 function decryptCode(code) {
-    for (let character of code)
+    for (let character in code) {
+        if (character === character.toUpperCase()) {
+            return character.toLowerCase();
+        }
+        else if (character === character.toLowerCase()) {
+            return character.toUpperCase();
+        }
+    };
 };
+
+console.log(decryptCode("JavR"));
+
+
+// Quiz 05: Sau khi khám phá kho báu, bạn cần điều khiển tàu vũ trụ K11 trở về Trái Đất.
+// Bạn cần viết một hàm returnToEarth để thực hiện hành động này. Hàm này không nhận
+// tham số đầu vào và không trả về giá trị. Hàm này chỉ đơn giản in một thông điệp "Chuẩn bị
+// trở về Trái Đất!" ra console.
+// Gọi hàm returnToEarth để hoàn thành nhiệm vụ.
+
+function returnToEarth() {
+    return 'Chuẩn bị trở về Trái Đất!';
+};
+
+console.log(returnToEarth());
